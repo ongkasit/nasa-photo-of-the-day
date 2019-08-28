@@ -25,7 +25,8 @@ function App() {
       </p>
       <PhotoCard title={data.title} 
                 url={data.url}
-                explanation={data.explanation}/>
+                explanation={data.explanation}
+                date={data.date}/>
     </div>
   );
 }
